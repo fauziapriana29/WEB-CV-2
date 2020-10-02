@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+/* font-family: 'Secular One', sans-serif; */
+
 .start-cont {
     display: flex;
+    flex-direction: row-reverse;
 }
 .content-1 {
     display: flex;
+    background-color: rgb(26, 26, 26);
     height: 100vh;
     width: 55vw;
-    background-color: aqua;
     flex-wrap: wrap;
     justify-content: center;
     padding: 50px;
@@ -14,7 +18,6 @@
 .content-1-1 {
     width: 70%;
     height: 70%;
-    background-color: brown;
 }
 .content-1-2 {
     width: 60%;
@@ -25,9 +28,21 @@
 .content-2 {
     height: 100vh;
     width: 45vw;
-    background-color: blueviolet;
+    background-image: url(../../components/image/fauziDark.png);
+    /* background-size: cover;
+    background-position: center; */
 }
 
+.intro {
+    font-family: 'Secular One', sans-serif;
+    font-size: 40px;
+    color: white;
+    padding-top: 10px;
+    margin-top: 3px;
+}
+.intro span {
+    color: rgb(238, 40, 26);
+}
 
 .transition-fade {
     transition: 0.4s;

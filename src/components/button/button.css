@@ -2,17 +2,18 @@
     position: relative;
     display: inline-block;
     padding: 15px 30px;
-    color: rgb(145, 23, 194);
+    color: rgb(238, 40, 26);
     text-transform: uppercase;
     letter-spacing: 4px;
     text-decoration: none;
     font-size: 24px;
     overflow: hidden;
     transition: 0.5s;
+    font-weight: bold;
 }
 
 .a:hover {
-    color: brown;
+    color: rgb(153, 24, 15);
     background: rgb(158, 38, 206);
     box-shadow: 0 0 10px rgb(145, 23, 194), 0 0 40px rgb(145, 23, 194), 0 0 80px rgb(145, 23, 194);
     transition-delay: 0.5s;
