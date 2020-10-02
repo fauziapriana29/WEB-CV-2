@@ -1,0 +1,39 @@
+.start-cont {
+    display: flex;
+}
+.content-1 {
+    display: flex;
+    height: 100vh;
+    width: 55vw;
+    background-color: aqua;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.content-1-1 {
+    width: 70%;
+    height: 70%;
+    background-color: brown;
+}
+.content-1-2 {
+    width: 60%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+.content-2 {
+    height: 100vh;
+    width: 45vw;
+    background-color: blueviolet;
+}
+
+
+.transition-fade {
+    transition: 0.4s;
+    opacity: 1;
+}
+
+html.is-animating .transition-fade {
+    opacity: 0;
+}
